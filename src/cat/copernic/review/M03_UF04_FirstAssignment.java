@@ -24,13 +24,17 @@ public class M03_UF04_FirstAssignment {
     public static void main(String[] args) {
         // Prueba to código aquí
         
-        Barco barco1 = new Yate(true, 4, 6, new Motor(1000), 20.0, 12.5, 23, 7);
-        barco1.arranca();
+        BarcoMercancias petrolero = new Petrolero(45000.5, new Motor(456354), 300.0 , 98.9, 34, 20000);
         
-        Barco barco2 = new PortaAviones(35, new Motor(6000), 250, 75, 46, 60_000, 35);
-        barco2.arranca();
-        
-        System.out.println(barco1 instanceof PortaAviones);
+        petrolero.abandonenElBarco();
+//        
+//        Barco barco1 = new Yate(true, 4, 6, new Motor(1000), 20.0, 12.5, 23, 7);
+//        barco1.arranca();
+//        
+//        Barco barco2 = new PortaAviones(35, new Motor(6000), 250, 75, 46, 60_000, 35);
+//        barco2.arranca();
+//        
+//        System.out.println(barco1 instanceof PortaAviones);
         
         
 //        CuentaCorriente cc1 = new CuentaCorriente("Pedro", 1_000.0);
